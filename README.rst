@@ -3,9 +3,8 @@
   :align: right
   :target: http://vmlaker.github.io/mpipe
 
-.. image:: https://travis-ci.org/vmlaker/mpipe.png?branch=master
-  :alt: Build Result Image
-  :target: https://travis-ci.org/vmlaker/mpipe
+.. image:: https://travis-ci.org/sourcepirate/mpipe.svg?branch=master
+    :target: https://travis-ci.org/sourcepirate/mpipe
 
 A tiny Python module that lets you 
 easily write multi-stage, multiprocess pipeline algorithms. 
