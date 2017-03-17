@@ -1,6 +1,7 @@
 """Implements TubeQ class."""
 
 import multiprocessing
+import Queue
 
 class TubeQ:
     """A unidirectional communication channel 
@@ -20,7 +21,7 @@ class TubeQ:
         if timeout:
             try:
                 result = self._queue.get(True, timeout)
-            except multiprocessing.Queue.Empty:
-                return(False, None)
+            except Queue.Empty as e:
+                return (False, None)
             return(True, result)
         return self._queue.get()
