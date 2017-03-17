@@ -4,6 +4,7 @@ comparison."""
 
 import sys
 import os
+import context
 import inspect
 from subprocess import Popen, STDOUT, PIPE
 

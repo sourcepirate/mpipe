@@ -1,3 +1,4 @@
+import context
 from mpipe import Stage, OrderedWorker, FilterStage, Pipeline
 
 class Echo(OrderedWorker):

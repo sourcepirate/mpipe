@@ -41,7 +41,7 @@ class Test(Command):
         print(command)
         subprocess.call(command, shell=True)
 
-from src import __version__
+from mpipe import __version__
 
 setup(
     name         = 'mpipe',
@@ -52,7 +52,7 @@ setup(
     author_email = 'velimir.mlaker@gmail.com',
     license      = 'MIT',
     long_description = open('README.rst').read(),
-    package_dir  = {'mpipe' : 'src'},
+    package_dir  = {'mpipe' : 'mpipe'},
     packages     = ['mpipe'],
     cmdclass     = { 'clean2' : Clean2, 'test' : Test, },
     classifiers  = [

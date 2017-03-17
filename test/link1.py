@@ -1,3 +1,4 @@
+import context
 from mpipe import OrderedStage as OStage, Pipeline
 
 def magnify(value):

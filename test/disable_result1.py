@@ -1,3 +1,4 @@
+import context
 from mpipe import OrderedStage, Pipeline
 
 def yes(value):

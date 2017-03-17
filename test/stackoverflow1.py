@@ -1,5 +1,6 @@
 """Solution for http://stackoverflow.com/questions/8277715"""
 
+import context
 from mpipe import OrderedStage, Pipeline
 
 def f2(value):

@@ -1,3 +1,4 @@
+import context
 from mpipe import UnorderedWorker, Stage, Pipeline
 
 class Yes(UnorderedWorker):

@@ -1,3 +1,4 @@
+import context
 from mpipe import OrderedStage, UnorderedStage, Pipeline
 
 def increment(value):

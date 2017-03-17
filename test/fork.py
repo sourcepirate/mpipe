@@ -1,3 +1,4 @@
+import context
 from mpipe import OrderedWorker, Stage, Pipeline
 
 class Incrementor(OrderedWorker):
