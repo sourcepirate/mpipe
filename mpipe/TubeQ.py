@@ -1,7 +1,12 @@
 """Implements TubeQ class."""
 
+import six
 import multiprocessing
-import Queue
+
+if six.PY3:
+    import queue as Queue
+else:
+    import Queue
 
 class TubeQ:
     """A unidirectional communication channel 
